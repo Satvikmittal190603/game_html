@@ -1,0 +1,76 @@
+body{
+  background-color:blue;
+  background-image: radial-gradient(#2C74B3,#0A2647);
+}
+h1{
+  text-align: center;
+  font-family:Snap ITC;
+  font-size: 80px;
+}
+
+.container{
+  display:inline-grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin-left: 450px;
+  padding: 10px;
+}
+
+#green{
+
+  height: 150px;
+  width: 150px;
+  border-radius: 10%;
+  border-color: black;
+
+  background-color: green;
+  border-width: thick;
+}
+
+
+#red{
+
+  height: 150px;
+  width: 150px;
+  border-radius: 10%;
+  border-color: black;
+
+  background-color: red;
+  border-width: thick;
+}
+
+
+#yellow{
+
+  height: 150px;
+  width: 150px;
+  border-radius: 10%;
+  border-color: black;
+
+  background-color: yellow;
+  border-width: thick;
+}
+
+
+#blue{
+
+  height: 150px;
+  width: 150px;
+  border-radius: 10%;
+  border-color: black;
+
+  background-color: blue;
+  border-width: thick;
+}
+
+
+.pressed{
+  box-shadow: 20px 20px 20px white;
+  background-color: grey;
+}
+
+.game-over{
+  background-color: red;
+  background-image: linear-gradient(red,red);
+  opacity: 0.5;
+}
